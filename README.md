@@ -30,25 +30,25 @@ Set Up an Elastic Account:
 
 Created a free account on Elastic Cloud.
 Logged into the Elastic Cloud console and created a new Elasticsearch deployment.
-Setting Up the Linux VM:
 
+Setting Up the Linux VM:
 Downloaded the Kali Linux VM image.
 Set up the Kali VM using VirtualBox or VMware.
 Installed and logged into Kali Linux.
-Setting Up the Agent to Collect Logs:
 
+Setting Up the Agent to Collect Logs:
 Navigated to the Integrations page in the Elastic SIEM.
 Installed the Elastic Agent on the Kali VM and verified the installation.
+
 Generating Security Events on the Kali VM:
-
 Installed Nmap (if not pre-installed) and executed various Nmap scans to generate security-related events.
-Querying for Security Events in the Elastic SIEM:
 
+Querying for Security Events in the Elastic SIEM:
 Accessed the logs section in the Elastic SIEM.
 Executed search queries to filter and analyze logs related to Nmap scans.
+
 Creating a Dashboard to Visualize Events:
-
 Created a new dashboard and added visualizations to display security events over time.
-Creating an Alert:
 
+Creating an Alert:
 Set up a custom alert in the Elastic SIEM to detect Nmap scan events and defined the notification actions.
